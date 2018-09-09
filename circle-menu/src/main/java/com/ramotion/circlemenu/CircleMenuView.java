@@ -750,4 +750,9 @@ public class CircleMenuView extends FrameLayout {
         openOrClose(false, animate);
     }
 
+    public boolean isMenuOpen() {
+        return !mClosedState;
+    }
+
+
 }
